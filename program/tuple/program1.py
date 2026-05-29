@@ -1,0 +1,15 @@
+tup = ()
+print(tup)
+print(type(tup))
+tup = (1,2,3)
+print(tup)
+print(type(tup))
+tup = ([1,2,3,4])
+print(tup)
+print(type(tup))
+print(tuple(tup))
+sen = "hello"
+print(tuple(sen))
+
+tup = (1,2,3,[1,2,3],{"a":1},True,"hello")
+print(tup)
