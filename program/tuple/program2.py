@@ -45,3 +45,4 @@ a,*b,c = tup
 print(a)
 print(b)
 print(c)
+
