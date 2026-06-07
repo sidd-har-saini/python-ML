@@ -95,5 +95,15 @@ for count in range(0,len(s_domain)):
     op.append(x2)        
 return op       
 
+""" by using hashmp or dict """
+
+d = {}
+for i in strs[:]:
+     keys = tuple(sorted(i))
+     if keys not in d:
+         d[keys] = []
+     d[keys].append(i)
+print(list(d.values())
+
 
 
