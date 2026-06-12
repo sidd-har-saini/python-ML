@@ -3,8 +3,7 @@ pandas dataframe is two dimension like structure ,to store data in tabular form
 make it easier to organize and analysis the data ,
 it can store different tyoe of data list , dict , array , and other external file 
 csv , excle 
-"""
-"""
+
 creating datafram from dict 
 here keys represent column 
 and values represent rows
@@ -26,8 +25,7 @@ we can perform basic task such as
 - removing 
 - renamin 
 - selecting 
-"""
-"""
+
 column selection
 we can select specific column using columns = ['col_name']
 if column not in data then it creat one and return null values 
